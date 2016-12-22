@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notitie"
+            android:icon="@drawable/ic_menu_notitie"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_menu_agenda"
+            android:title="agenda" />
+        <item
+            android:id="@+id/nav_contactenlijs"
+            android:icon="@drawable/ic_menu_contactenlijst"
+            android:title="contactenlijst" />
+
+        <item
+            android:id="@+id/nav_thema"
+            android:icon="@drawable/ic_menu_thema"
+            android:title="thema" />
+
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_menu_email"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
